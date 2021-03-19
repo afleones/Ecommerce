@@ -38,14 +38,21 @@ For the contribution to open source projects, a few simple steps must be followe
 
 Several quick start options are available:
 
-- [fork] Fork of the source repository:
-- Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
-- Install with [npm](https://www.npmjs.com/): `npm install bootstrap`
-- Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@4.0.0`
-- Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap:4.0.0`
-- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap -Pre` Sass: `Install-Package bootstrap.sass -Pre` (`-Pre` is only required until Bootstrap v4 has a stable release).
+1.[fork] Fork of the source repository:
+- To do this, go to your github account.
+- Locate the repository in which you are going to collaborate.
+- In the upper right corner, locate the fork icon and click on it.
+- This makes an exact copy of the repository in the profile of the contributing user.
+2.Clone the repository:
+- Once the Fork is made, the forked repository must be cloned, with the following
+- Command: git clone https://github.com/afleones/Ecommerce.git
+3.Enter the cloned folder: cd Ecommerce
+4.Check connections to remote sources: git remote -v
+5.Add a remote connection to the original repository:
+- git remote add upstream https://github.com/afleones/Ecommerce.git (forked)
+6.Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name   can be changed to a more personalized one with the following command: git remote rename origin fork
 
-Read the [Getting started page](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for information on the framework contents, templates and examples, and more.
+Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name can be changed to a more personalized one with the following command: git remote rename origin fork.
 
 ## Status
 
