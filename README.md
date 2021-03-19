@@ -11,14 +11,14 @@ Things you may want to cover:
 * System dependencies
   Postgis Adapter
   
-* Configuration
+* <h1>Configuration</h1>
 * 
   The first step is to make sure you use Postgres, so specify this when cloning the application:
   
   In your Gemfile add the PostGIS ActiveRecord adapter: <br/>
     gem 'activerecord-postgis-adapter'
     
-  And to use it in your config/database.yml change the adapter from postgresql to postgis
+  And to use it in your config/database.yml change the adapter from postgresql to postgis: <br/>
     adapter: postgis
     
   And add the PostGIS extension:
