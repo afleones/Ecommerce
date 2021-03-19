@@ -49,14 +49,16 @@ Several quick start options are available:
 - Command: git clone https://github.com/afleones/Ecommerce.git <br/>
 
 3.Enter the cloned folder: <br/>
+
   cd Ecommerce<br/>
  
 4.Check connections to remote sources: git remote -v <br/>
 
-6.Add a remote connection to the original repository: <br/>
+5.Add a remote connection to the original repository: <br/>
+
 - git remote add upstream https://github.com/afleones/Ecommerce.git (forked) <br/>
 
-8.Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name   can be changed to a more personalized one with the following command: git remote rename origin fork
+6.Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name   can be changed to a more personalized one with the following command: git remote rename origin fork
 
 Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name can be changed to a more personalized one with the following command: git remote rename origin fork.
 
