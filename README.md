@@ -58,18 +58,6 @@ Several quick start options are available:
 
 We already have a copy of the original repository, now we will work on the daily workflow.
 
-1. First of all update local main branch with latest changes, with the command: <strong> git pull -r (name of remote source) main </strong>
-2. We create the requirement or functionality, in the workflow tool, trello or github issues (our github)
-3. Optional we create a branch for the development of the issue.
-4. We work and complete the tasks.
-5. We run <strong>git status</strong> and check the files that have undergone changes.
-6. We run <strong>git add.</strong> and we add all the changes to the stash.
-7. We commit the changes with: <strong>git commit -m "Here the commit title"</strong>
-8. We carry out a push to our repository with: <strong>git push origin main</strong> (Taking into account that the romoto of our repository is called origin and the branch to which we are    
-   going to send the work is called master).
-9. We go to the github page and enter our repository.
-10.We create a new pull request, which is sent to the original repository.
-
 ## Bugs and feature requests
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/afleones/Ecommerce/issues) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/afleones/Ecommerce/issues/new).
@@ -77,8 +65,28 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 ## Contributing
 
+1. First of all update local main branch with latest changes, with the command: <strong> git pull -r (name of remote source) main </strong>
+2. We create the requirement or functionality, in the workflow tool, trello or github issues (our github)
+3. Optional we create a branch for the development of the issue.
+4. We work and complete the tasks.
+5. We run <strong>git status</strong> and check the files that have undergone changes.
+6. We run <strong>git add.</strong> and we add all the changes to the stash.
+7. We commit the changes with: <strong>git commit -m "Here the commit title"</strong>
+8. We carry out a push to our repository with: <strong>git push origin main</strong> (Taking into account that the romoto of our repository is called origin and the branch to which we are going to send the work is called master).
+9. We go to the github page and enter our repository.
+10.We create a new pull request, which is sent to the original repository.
 
-
+## Dependencies
+-  Ruby version: 2.7.1 </br>
+-  Rails version:6.1.3</br>
+-  Postgres Adapter:</br>
+-  The first step is to make sure you use Postgres, so specify this when cloning the application:</br>
+    1. In your Gemfile add the PostGIS ActiveRecord adapter:</br>
+       gem 'activerecord-postgis-adapter' </br>
+    2. use it in your config/database.yml:</br>
+       change the adapter from postgresql to postgis, Example: adapter: postgis</br>
+    3. add the PostGIS extension:</br>
+-      rails db:gis:setup </br>
 ## Creators
 
 **Andres Leones**
