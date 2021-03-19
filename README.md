@@ -60,21 +60,17 @@ Several quick start options are available:
 
 We already have a copy of the original repository, now we will work on the daily workflow.
 
-## Status
-
-[![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com/)
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg)](https://travis-ci.org/twbs/bootstrap)
-[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
-[![Gem version](https://img.shields.io/gem/v/bootstrap.svg)](https://rubygems.org/gems/bootstrap)
-[![Meteor Atmosphere](https://img.shields.io/badge/meteor-twbs%3Abootstrap-blue.svg)](https://atmospherejs.com/twbs/bootstrap)
-[![Packagist Prerelease](https://img.shields.io/packagist/vpre/twbs/bootstrap.svg)](https://packagist.org/packages/twbs/bootstrap)
-[![peerDependencies Status](https://img.shields.io/david/peer/twbs/bootstrap.svg)](https://david-dm.org/twbs/bootstrap?type=peer)
-[![devDependency Status](https://img.shields.io/david/dev/twbs/bootstrap.svg)](https://david-dm.org/twbs/bootstrap?type=dev)
-[![CSS gzip size](http://img.badgesize.io/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/twbs/bootstrap/tree/v4-dev/dist/css/bootstrap.min.css)
-[![JS gzip size](http://img.badgesize.io/twbs/bootstrap/v4-dev/dist/js/bootstrap.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/twbs/bootstrap/tree/v4-dev/dist/js/bootstrap.min.js)
-
-[![Sauce Labs Test Status](https://saucelabs.com/browser-matrix/bootstrap.svg)](https://saucelabs.com/u/bootstrap)
-
+1. First of all update local main branch with latest changes, with the command: git pull -r (name of remote source) main
+2. We create the requirement or functionality, in the workflow tool, trello or github issues (our github)
+3. Optional we create a branch for the development of the issue.
+4. We work and complete the tasks.
+5. We run git status and check the files that have undergone changes.
+6. We run git add. and we add all the changes to the stash.
+7. We commit the changes with: git commit -m "Here the commit title"
+8. We carry out a push to our repository with: git push origin master (Taking into account that the romoto of our repository is called origin and the branch to which we are    
+   going to send the work is called master).
+9. We go to the github page and enter our repository.
+10.We create a new pull request, which is sent to the original repository.
 
 ## Bugs and feature requests
 
