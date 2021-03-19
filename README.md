@@ -3,19 +3,17 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" alt="" width=72 height=72>
   </a>
 
-  <h3 align="center">Bootstrap</h3>
+  <h3 align="center">Ecommerce App on Ruby on Rails</h3>
 
   <p align="center">
-    Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+    Ruby on Rails, also known as RoR or Rails, is an open source web application framework written in the Ruby programming language, following the Model View Controller (MVC)       pattern paradigm.
     <br>
     <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png"><strong>Explore Bootstrap docs Â»</strong></a>
     <br>
     <br>
-    <a href="https://themes.getbootstrap.com/">Bootstrap Themes</a>
+    <a href="https://andresleones.com/">Developer Site</a>
     Â·
-    <a href="https://jobs.getbootstrap.com/">Job Board</a>
-    Â·
-    <a href="https://blog.getbootstrap.com/">Blog</a>
+    <a href="https://www.facebook.com/padsoftOficial/">company site</a>
   </p>
 </p>
 
@@ -36,9 +34,11 @@
 
 ## Quick start
 
+For the contribution to open source projects, a few simple steps must be followed that work the successful interaction between developers and an organized work flow; The steps to follow are detailed below.
+
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/twbs/bootstrap/archive/v4.0.0.zip)
+- [fork] Fork of the source repository:
 - Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
 - Install with [npm](https://www.npmjs.com/): `npm install bootstrap`
 - Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@4.0.0`
