@@ -80,62 +80,10 @@ We already have a copy of the original repository, now we will work on the daily
 
 [![Sauce Labs Test Status](https://saucelabs.com/browser-matrix/bootstrap.svg)](https://saucelabs.com/u/bootstrap)
 
-## What's included
-
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
-
-```
-bootstrap/
-â”œâ”€â”€ css/
-â”‚   â”œâ”€â”€ bootstrap.css
-â”‚   â”œâ”€â”€ bootstrap.css.map
-â”‚   â”œâ”€â”€ bootstrap.min.css
-â”‚   â”œâ”€â”€ bootstrap.min.css.map
-â”‚   â”œâ”€â”€ bootstrap-grid.css
-â”‚   â”œâ”€â”€ bootstrap-grid.css.map
-â”‚   â”œâ”€â”€ bootstrap-grid.min.css
-â”‚   â”œâ”€â”€ bootstrap-grid.min.css.map
-â”‚   â”œâ”€â”€ bootstrap-reboot.css
-â”‚   â”œâ”€â”€ bootstrap-reboot.css.map
-â”‚   â”œâ”€â”€ bootstrap-reboot.min.css
-â”‚   â””â”€â”€ bootstrap-reboot.min.css.map
-â””â”€â”€ js/
-    â”œâ”€â”€ bootstrap.bundle.js
-    â”œâ”€â”€ bootstrap.bundle.min.js
-    â”œâ”€â”€ bootstrap.js
-    â””â”€â”€ bootstrap.min.js
-```
-
-We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/debug/readability/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/), but not [jQuery](https://jquery.com/).
-
 
 ## Bugs and feature requests
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
-
-
-## Documentation
-
-Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com/) and publicly hosted on GitHub Pages at <https://getbootstrap.com/>. The docs may also be run locally.
-
-Documentation search is powered by [Algolia's DocSearch](https://community.algolia.com/docsearch/). Working on our search? Be sure to set `debug: true` in the `_scripts.html` include.
-
-### Running documentation locally
-
-1. Run through the [tooling setup](https://getbootstrap.com/docs/4.0/getting-started/build-tools/#tooling-setup) to install Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
-2. Run `npm install` to install Node.js dependencies.
-3. Run `npm run test` (or a specific NPM script) to rebuild distributed CSS and JavaScript files, as well as our docs assets.
-4. From the root `/bootstrap` directory, run `npm run docs-serve` in the command line.
-5. Open `http://localhost:9001` in your browser, and voilÃ .
-
-Learn more about using Jekyll by reading its [documentation](https://jekyllrb.com/docs/home/).
-
-### Documentation for previous releases
-
-- For v2.3.2: <https://getbootstrap.com/2.3.2/>
-- For v3.3.x: <https://getbootstrap.com/docs/3.3/>
-
-[Previous releases](https://github.com/twbs/bootstrap/releases) and their documentation are also available for download.
 
 
 ## Contributing
@@ -168,15 +116,10 @@ See [the Releases section of our GitHub project](https://github.com/twbs/bootstr
 
 ## Creators
 
-**Mark Otto**
+**Andres Leones**
 
-- <https://twitter.com/mdo>
-- <https://github.com/mdo>
-
-**Jacob Thornton**
-
-- <https://twitter.com/fat>
-- <https://github.com/fat>
+- <https://andresleones.com/>
+- <https://github.com/afleones>
 
 
 ## Copyright and license
