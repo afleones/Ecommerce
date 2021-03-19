@@ -52,7 +52,9 @@ Several quick start options are available:
 
   cd Ecommerce<br/>
  
-4.Check connections to remote sources: git remote -v <br/>
+4.Check connections to remote sources: <br/>
+
+  git remote -v 
 
 5.Add a remote connection to the original repository: <br/>
 
@@ -60,7 +62,7 @@ Several quick start options are available:
 
 6.Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name   can be changed to a more personalized one with the following command: git remote rename origin fork
 
-Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name can be changed to a more personalized one with the following command: git remote rename origin fork.
+We already have a copy of the original repository, now we will work on the daily workflow.
 
 ## Status
 
