@@ -1,18 +1,15 @@
 <p align="center">
-  <a href="https://getbootstrap.com/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" alt="" width=72 height=72>
-  </a>
 
   <h3 align="center">Ecommerce App on Ruby on Rails</h3>
 
   <p align="center">
     Ruby on Rails, also known as RoR or Rails, is an open source web application framework written in the Ruby programming language, following the Model View Controller (MVC)       pattern paradigm.
     <br>
-    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png"><strong>Explore Bootstrap docs Â»</strong></a>
     <br>
     <br>
     <a href="https://andresleones.com/">Developer Site</a>
-    Â·
+    and
     <a href="https://www.facebook.com/padsoftOficial/">company site</a>
   </p>
 </p>
