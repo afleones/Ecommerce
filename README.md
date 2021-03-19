@@ -43,7 +43,7 @@ Several quick start options are available:
 
 3. Enter the cloned folder: <br/>
 
-      cd Ecommerce<br/>
+-     cd Ecommerce
  
 4. Check connections to remote sources: <br/>
 
