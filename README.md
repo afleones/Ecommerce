@@ -8,7 +8,7 @@
   <p align="center">
     Sleek, intuitive, and powerful front-end framework for faster and easier web development.
     <br>
-    <a href="https://getbootstrap.com/docs/4.0/"><strong>Explore Bootstrap docs Â»</strong></a>
+    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png"><strong>Explore Bootstrap docs Â»</strong></a>
     <br>
     <br>
     <a href="https://themes.getbootstrap.com/">Bootstrap Themes</a>
