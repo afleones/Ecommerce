@@ -38,20 +38,25 @@ For the contribution to open source projects, a few simple steps must be followe
 
 Several quick start options are available:
 
-1.[fork] Fork of the source repository:
+1.Fork of the source repository:
 - To do this, go to your github account.
 - Locate the repository in which you are going to collaborate.
 - In the upper right corner, locate the fork icon and click on it.
-- This makes an exact copy of the repository in the profile of the contributing user.
+- This makes an exact copy of the repository in the profile of the contributing user. <br/>
+
 2.Clone the repository:
 - Once the Fork is made, the forked repository must be cloned, with the following
 - Command: git clone https://github.com/afleones/Ecommerce.git <br/>
+
 3.Enter the cloned folder: <br/>
   cd Ecommerce<br/>
-5.Check connections to remote sources: git remote -v <br/>
+ 
+4.Check connections to remote sources: git remote -v <br/>
+
 6.Add a remote connection to the original repository: <br/>
 - git remote add upstream https://github.com/afleones/Ecommerce.git (forked) <br/>
-7.Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name   can be changed to a more personalized one with the following command: git remote rename origin fork
+
+8.Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name   can be changed to a more personalized one with the following command: git remote rename origin fork
 
 Optional, rename the remote connection. In order to avoid confusion, in the previous step a local connection was created with the original repository named upstream, this name can be changed to a more personalized one with the following command: git remote rename origin fork.
 
