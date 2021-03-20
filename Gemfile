@@ -62,3 +62,7 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'font-awesome-rails'
 #jQuery on Rails
 gem 'jquery-rails'
+#Devise for Login Users
+gem 'devise'
+#Forms
+gem 'simple_form'

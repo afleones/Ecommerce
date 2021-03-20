@@ -266,11 +266,61 @@
             </li>
             <li class="divider"></li>
             <li>
-              <a href="my_account.html">
-                <%= image_tag("user/user-1.jpg", class: 'user-img') %>
-                <span class="d-none d-xl-inline">Login / Register</span>
-              </a>
-            </li>
+               <li class="dropdown dropdown-hover">
+                    <a href="#" class="header-cart" data-toggle="dropdown">
+                        <%= image_tag("user/user-1.jpg", class: 'user-img') %>
+                      <span class="total"></span>
+                      <span class="arrow top"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-cart p-0">
+                      <div class="cart-header">
+                        <h4 class="cart-title">User Sesion</h4>
+                      </div>
+                      <div class="cart-body">
+                        <ul class="cart-item">
+                          <li><h2>Log in</h2>
+
+                          <%= simple_form_for(new_user_session_path) do |f| %>
+                            <div class="field">
+                              <%= f.label :email %><br />
+                              <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+                            </div>
+
+                            <div class="field">
+                              <%= f.label :password %><br />
+                              <%= f.password_field :password, autocomplete: "current-password" %>
+                            </div>
+
+
+                            <div class="actions">
+                              <%= f.submit "Log in" %>
+                            </div>
+                          <% end %>
+                          </li>
+                        </ul>
+                      </div>
+                      <% if user_signed_in? %>
+                        <div class="cart-footer">
+                          <div class="row row-space-10">
+                            <div class="col-6">
+                              <%= link_to destroy_user_session_path, method: :delete, class:"btn btn-default btn-theme btn-block" do %>
+                              salir
+                              <%end%>
+                            </div>
+                      <% else %>
+                      <div class="cart-footer">
+                        <div class="row row-space-10">
+                          <div class="col-6">
+                            <a href="<%= user_session_path  %>" class="btn btn-default btn-theme btn-block">Log In</a>
+                          </div>
+                          <div class="col-6">
+                            <a href="<%= new_user_registration_path  %>" class="btn btn-inverse btn-theme btn-block">Sign Up</a>
+                          </div>
+                        </div>
+                      </div>
+                  <% end %>
+                    </div>
+                  </li>
           </ul>
         </div>
         <!-- END header-nav -->
